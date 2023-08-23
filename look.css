@@ -1,0 +1,650 @@
+body {
+  background: rgb(0, 0, 0);
+  font-family: cursive;
+}
+
+header {
+  /* background-color: red; */
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: aqua;
+  margin-top: 5%;
+  text-shadow: 3px 3px 3px rgba(0, 255, 255, 0.5);
+}
+
+.nav-div {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(11, 126px);
+  grid-template-rows: repeat(7, 126px);
+}
+
+.add-1 {
+  background-color: aqua;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.add-2 {
+  background-color: aqua;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.add-3 {
+  background-color: aqua;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.add-4 {
+  background-color: aqua;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.add-5 {
+  background-color: aqua;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.add-6 {
+  background-color: aqua;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.div-1 {
+  background-color: aqua;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.div-2 {
+  background-color: aqua;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.div-3 {
+  background-color: aqua;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.div-4 {
+  background-color: aqua ;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.div-5 {
+  background-color: aqua;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  z-index: 1;
+}
+
+.div-6 {
+  background-color: aqua;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.add-1,
+.add-2,
+.add-3,
+.add-4,
+.add-5,
+.add-6,
+.div-1,
+.div-2,
+.div-3,
+.div-4,
+.div-5,
+.div-6 {
+  transform: rotate(45deg);
+  box-shadow: 10px 10px 10px rgba(0, 255, 255, 0.5);
+  width: 70%;
+  height: 70%;
+}
+
+.add-1 {
+  animation: add-1 5s linear infinite;
+}
+
+@keyframes add-1 {
+  5% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.div-1 {
+  animation: div-1 5s linear infinite;
+}
+
+@keyframes div-1 {
+  10% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.add-2 {
+  animation: add-2 5s linear infinite;
+}
+
+@keyframes add-2 {
+  15% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.div-2 {
+  animation: div-2 5s linear infinite;
+}
+
+@keyframes div-2 {
+  20% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.add-3 {
+  animation: add-3 5s linear infinite;
+}
+
+@keyframes add-3 {
+  25% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.div-6 {
+  animation: div-6 5s linear infinite;
+}
+
+@keyframes div-6 {
+  30% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.div-3 {
+  animation: div-3 5s linear infinite;
+}
+
+@keyframes div-3 {
+  35% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.add-4 {
+  animation: add-4 5s linear infinite;
+}
+
+@keyframes add-4 {
+  40% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.div-5 {
+  animation: div-5 5s linear infinite;
+}
+
+@keyframes div-5 {
+  45% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.add-5 {
+  animation: add-5 5s linear infinite;
+}
+
+@keyframes add-5 {
+  50% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.div-4 {
+  animation: div-4 5s linear infinite;
+}
+
+@keyframes div-4 {
+  55% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.add-6 {
+  animation: add-6 5s linear infinite;
+}
+
+@keyframes add-6 {
+  60% {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+.log-div {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  max-width: 60%;
+  margin-bottom: 5%;
+  /* background-color: rgb(84, 79, 79); */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  margin: 7px;
+  background: transparent;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid aqua;
+  color: aqua;
+  font-family: cursive;
+  display: block;
+}
+
+input::placeholder {
+  color: aqua;
+}
+
+.input-user:hover {
+  box-shadow: 0 3px 3px rgba(0, 255, 255, 0.9);
+}
+
+.input-pass:hover {
+  box-shadow: 0 3px 3px rgba(0, 255, 255, 0.9);
+}
+
+.btn-div {
+  display: flex;
+  justify-content: end;
+}
+
+button {
+  padding: 10px;
+  font-family: cursive;
+  background-color: aqua;
+  color: black;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+.last {
+  width: 100%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.last-1 {
+  background-color: aqua;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  clip-path: circle(40%);
+  /* box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); */
+}
+
+.last-2 {
+  background-color: aqua;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  clip-path: circle(40%);
+}
+
+.last-3 {
+  background-color: aqua;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  clip-path: circle(40%);
+}
+
+.last-4 {
+  background-color: aqua;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  clip-path: circle(40%);
+}
+
+.last-5 {
+  background-color: aqua;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  clip-path: circle(40%);
+}
+
+.last-6 {
+  background-color: aqua;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  clip-path: circle(40%);
+}
+
+.last-7 {
+  background-color: aqua;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  clip-path: circle(40%);
+}
+
+.last-8 {
+  background-color: aqua;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  clip-path: circle(40%);
+}
+
+.last-9-center {
+  background-color: aqua;
+  grid-column-end: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  clip-path: circle(40%);
+}
+
+.last-2 {
+  animation: last-2 3s linear infinite;
+}
+
+@keyframes last-2 {
+  5% {
+    background-color: black;
+  }
+}
+
+.last-1 {
+  animation: last-1 3s linear infinite;
+}
+
+@keyframes last-1 {
+  10% {
+    background-color: black;
+  }
+}
+
+.last-3 {
+  animation: last-3 3s linear infinite;
+}
+
+@keyframes last-3 {
+  15% {
+    background-color: black;
+  }
+}
+
+.last-4 {
+  animation: last-4 3s linear infinite;
+}
+
+@keyframes last-4 {
+  20% {
+    background-color: black;
+  }
+}
+
+.last-5 {
+  animation: last-5 3s linear infinite;
+}
+
+@keyframes last-5 {
+  30% {
+    background-color: black;
+  }
+}
+
+.last-6 {
+  animation: last-6 3s linear infinite;
+}
+
+@keyframes last-6 {
+  35% {
+    background-color: black;
+  }
+}
+
+.last-7 {
+  animation: last-7 3s linear infinite;
+}
+
+@keyframes last-7 {
+  40% {
+    background-color: black;
+  }
+}
+
+.last-8 {
+  animation: last-8 3s linear infinite;
+}
+
+@keyframes last-8 {
+  45% {
+    background-color: black;
+  }
+}
+
+.last-9-center {
+  animation: last-9-center 3s linear infinite;
+} 
+
+@keyframes last-9-center {
+  25% {
+    background-color: black;
+  }
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 950px) {
+  .nav-div {
+    margin-left: 10%;
+  }
+
+/* .add-1,
+.add-2,
+.add-3,
+.add-4,
+.add-5,
+.add-6,
+.div-1,
+.div-2,
+.div-3,
+.div-4,
+.div-5,
+.div-6 {
+  transform: rotate(45deg);
+  box-shadow: 10px 10px 10px rgba(0, 255, 255, 0.5);
+  width: 55%;
+  height: 55%;
+} */
+
+  .last {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .last-1,
+  .last-2,
+  .last-3,
+  .last-4,
+  .last-5,
+  .last-6,
+  .last-7,
+  .last-8,
+  .last-9-center {
+    clip-path: circle(20%);
+  }
+}
+
+/* @media (min-width: 400px) {
+  .nav-div {
+    min-width: 500px;
+  }
+} */
+
+
+
+/* @media screen and (min-width: 412) {
+  nav {
+    display: grid;
+    grid-template-columns: repeat(11, 126px);
+    grid-template-rows: repeat(7, 126px);
+  }
+
+  .nav-div {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+  }
+} */
+
+
+
+
+
+/* @media all and (max-width: 500px) {
+  nav {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    text-align: center;
+  }
+} */
+
+
+/* .last-1,
+.last-7 {
+  animation: light 3s linear infinite;
+}
+
+@keyframes light {
+  0% {
+    background-color: black;
+  }
+}
+
+.last-2,
+.last-8 {
+  animation: blu 3s linear infinite;
+}
+
+@keyframes blu {
+  10% {
+    background-color: black;
+  }
+}
+
+.last-3,
+.last-6 {
+  animation: dark 3s linear infinite;
+}
+
+@keyframes dark {
+  20% {
+    background-color: black;
+  }
+}
+
+.last-4,
+.last-5 {
+  animation: me 3s linear infinite;
+}
+
+@keyframes me {
+  30% {
+    background-color: black;
+  }
+} */
